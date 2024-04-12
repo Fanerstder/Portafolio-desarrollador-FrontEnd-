@@ -1,4 +1,7 @@
 @media screen and (max-width:768px){
+     body{
+        background:yellow;
+    }
     .bars-menu{
         right: 40px;
     }
