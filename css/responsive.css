@@ -1,1 +1,132 @@
+@media screen and (max-width:768px){
+    .bars-menu{
+        right: 40px;
+    }
+    .banner{
+        width: 90%;
+    }
+    .banner .title__banner{
+       font-size :1em;
+    }
+    .banner .parrafo__info{
+        font-size :12px;
+        margin-top: 20px;
+        padding: 0px 50px;
+    }
+    .banner .img__profile{
+        width: 120px;
+        height: 120px;
+        margin-top: 30px;
+    }
+    .banner .img__illustrator{
+        width: 350px;
+    }
+    /*  */
+    .aboutme{
+        width: 80%;
+    }
+    .aboutme .title__aboutme{
+        font-size :1.2rem;
+    }
+    .container__aboutme .parrafo__aboutme{
+        font-size :0.75rem;
+        text-align :start;
+    }
+    /*  */
+    .skills {
+        width: 90vw;
+    }
+    .skills .title__skill{
+        font-size :1.9rem;
+    }
+    .skills .parrafo__skill{
+        font-size :0.75rem;
+        line-height:1.6;
+    }
+    .container__card-skill{
+           grid-template-columns :repeat(auto-fill, minmax(7.5rem, 1fr));
+           gap:10px 5px;
+    }
+    .card__skill{
+        *height: 80px;
+        *width: 80px;
+        margin: 5px;
+    }
+    .card__skill img{
+        width:30px;
+    }
+    .card__skill h3{
+       font-size :.5rem;
 
+    }
+    /*  */
+    .projects{
+        width: 90%;
+        margin-top :150px;    
+    }
+    .projects h2{
+        font-size :1.9rem;
+    }
+    .projects__card{
+        width: 300px;
+        height: 300px;
+    }
+    .projects__card-description-hover{
+
+        top: 3rem;
+    }
+    .projects__card-decription-text{
+        font-size :8px;
+        line-height: 16px;
+        margin-bottom: 6px;
+    }
+    .used-technologies p{
+        font-size :12px;
+        margin-bottom: 8px;
+    }
+    .projects__card h3{
+        font-size :16px;
+        margin-top: 15px;
+    }
+
+    .projects__btn a{
+        font-size :10px;
+    }
+    /*  */
+    .container__card-study{
+        grid-template-columns :repeat(1, 1fr);
+    }
+    .contact{
+        *width: 600px;
+        flex-direction :column;
+        text-align :center;
+    }
+    .contact p{
+        font-size :0.7rem;
+    }
+    .contact a{
+
+    padding: 12px 0px;
+    font-size :1.2em;
+
+    }
+    /*  */
+    .container__footer h2{
+    font-size :1.7em;
+    }
+    .container__footer .section__social-footer{
+    margin-top: 20px;
+    }
+    .container__footer .section__social-footer .item__social{
+    width: 30px;
+    height: 30px;
+    }
+    .container__footer .section__social-footer .item__social a{
+    font-size :1em;
+    }
+    .container__footer .section__copyright-footer{
+    margin-top: 30px;
+}
+    .container__footer .section__copyright-footer p{
+    font-size :1em;
+}
