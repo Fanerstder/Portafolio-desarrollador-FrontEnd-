@@ -48,13 +48,13 @@
      color: #1CB698; 
      margin-left: 20px;
 }
-/* Styles menu*/
+/*---------------- SECCION STYLES MENU ----------------------------------‐--------- */
 .menu{
     background:#ffffff;
     position :absolute;
     top:100px; 
     right: 0px;
-    width: 100vw; 
+    width: 50vw; 
     height: 900px;  
     display :none;
     text-align :left;  
@@ -81,20 +81,19 @@
     background:#fdd857;
 }
 .menu ul li a{ 
-    font-size :46px;
+    font-size :18px;
     font-family :'Roboto';     
     font-weight :bold;
     color:#1CB698;
     text-transform :uppercase;
     text-decoration :none;
     border:1px solid #1CB698;
-    border-radius:60px;
-    padding: 20px 50px;
+    border-radius:50px;
+    padding: 5px 10px;
     
 }
 .menu ul li a:hover{
     background: #fdd857;
-    padding: 20px 70px;
     transition:1000ms;
     transform:translateY(-0px);
 }
@@ -129,7 +128,7 @@
 .activeline3{
     transform :rotate(-45deg) translate(-4px, 2px);
 }
-/* STYLES CSS BANNER*/
+/*----------------------------- STYLES CSS BANNER-----------------------------------------*/
 .container__banner{
     display :flex;
     max-width:1200px;
@@ -167,7 +166,7 @@
     width: 400px;
     height: 400px;
 }
-/* STYLES CSS ABOUT ME*/
+/*--------------------- STYLES CSS ABOUT ME -----------------------*/
 .container__aboutme{
     background: #1CB698;
     max-width:1200px;    
@@ -197,7 +196,7 @@
     margin-top:40px;
     
 }
-/* STYLES CSS SKILLS*/
+/*----------------------------- STYLES CSS SKILLS ----------------------------*/
 .container__skills {
     max-width :1200px;
     display :flex;    
@@ -256,7 +255,7 @@
     text-transform :uppercase;
     display :;
 }
-/*  STYLES CSS PROJECTS*/
+/*-------------------- STYLES CSS PROJECTS -----------------------*/
 
 .container__projects{
     max-width:1200px;
@@ -522,7 +521,7 @@
    left: 100%; 
    right: -100%; 
  }
- /* STYLES  CSS STUDY*/
+ /*---------------------- STYLES  CSS STUDY ---------‐----------------*/
 .container__study{
     margin: auto;
     max-width: 1200px;
@@ -567,13 +566,16 @@
     opacity :0;
 }
 .card__study{
-    background: yellow;
+    background:;
 }
 .card__study h3{
-    
+    font-size :1em;
+    color:#ffffff;
+    margin-bottom:10px;
 }
 .card__study p{
-    
+    font-size :10px;
+    color:#ffffff;
 }
 /* STYLES CSS CONTACT*/
 .container__contact{
@@ -699,144 +701,3 @@
     color:#FFFFFF;
     margin-top: 20px;
  }
-
-
-
-
-
-
-
-
-@media screen and (max-width:768px){
-    .bars-menu{
-        right: 40px;
-    }
-    .banner{
-        width: 90%;
-    }
-    .banner .title__banner{
-       font-size :1em;
-    }
-    .banner .parrafo__info{
-        font-size :12px;
-        margin-top: 20px;
-        padding: 0px 50px;
-    }
-    .banner .img__profile{
-        width: 120px;
-        height: 120px;
-        margin-top: 30px;
-    }
-    .banner .img__illustrator{
-        width: 350px;
-    }
-    /*  */
-    .aboutme{
-        width: 80%;
-    }
-    .aboutme .title__aboutme{
-        font-size :1.2rem;
-    }
-    .container__aboutme .parrafo__aboutme{
-        font-size :0.75rem;
-        text-align :start;
-    }
-    /*  */
-    .skills {
-        width: 90vw;
-    }
-    .skills .title__skill{
-        font-size :1.9rem;
-    }
-    .skills .parrafo__skill{
-        font-size :0.75rem;
-        line-height:1.6;
-    }
-    .container__card-skill{
-           grid-template-columns :repeat(auto-fill, minmax(7.5rem, 1fr));
-           gap:10px 5px;
-    }
-    .card__skill{
-        *height: 80px;
-        *width: 80px;
-        margin: 5px;
-    }
-    .card__skill img{
-        width:30px;
-    }
-    .card__skill h3{
-       font-size :.5rem;
-       
-    }
-    /*  */
-    .projects{
-        width: 90%;
-        margin-top :150px;    
-    }
-    .projects h2{
-        font-size :1.9rem;
-    }
-    .projects__card{
-        width: 300px;
-        height: 300px;
-    }
-    .projects__card-description-hover{
-        
-        top: 3rem;
-    }
-    .projects__card-decription-text{
-        font-size :8px;
-        line-height: 16px;
-        margin-bottom: 6px;
-    }
-    .used-technologies p{
-        font-size :12px;
-        margin-bottom: 8px;
-    }
-    .projects__card h3{
-        font-size :16px;
-        margin-top: 15px;
-    }
-    
-    .projects__btn a{
-        font-size :10px;
-    }
-    /*  */
-    .container__card-study{
-        grid-template-columns :repeat(1, 1fr);
-    }
-    .contact{
-        *width: 600px;
-        flex-direction :column;
-        text-align :center;
-    }
-    .contact p{
-        font-size :0.7rem;
-    }
-    .contact a{
-        
-    padding: 12px 0px;
-    font-size :1.2em;
-    
-    }
-    /*  */
-    .container__footer h2{
-    font-size :1.7em;
-    }
-    .container__footer .section__social-footer{
-    margin-top: 20px;
-    }
-    .container__footer .section__social-footer .item__social{
-    width: 30px;
-    height: 30px;
-    }
-    .container__footer .section__social-footer .item__social a{
-    font-size :1em;
-    }
-    .container__footer .section__copyright-footer{
-    margin-top: 30px;
-}
-    .container__footer .section__copyright-footer p{
-    font-size :1em;
-}
-
